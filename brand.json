@@ -1,8 +1,17 @@
 {
   "name": "Spectral Brand Theory",
   "version": "1.0.0",
+  "framework_version": "2.1",
   "url": "https://spectralbranding.com",
   "description": "Brand identity specification encoded as an executable function. There is no logo. The function IS the identity.",
+
+  "research": {
+    "ssrn": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6318718",
+    "github_framework": "https://github.com/spectralbranding/sbt-framework",
+    "github_papers": "https://github.com/spectralbranding/sbt-papers",
+    "github_brand_code": "https://github.com/spectralbranding/brand-code",
+    "substack": "https://substack.com/@spectralbranding"
+  },
 
   "function": {
     "signature": "f(signals, observer_position, time) -> visual_output",

@@ -70,7 +70,7 @@ The source files in `src/` are the exact code running on [spectralbranding.com](
 - Three.js 0.172+ (WebGL2)
 - TypeScript
 
-To use in your own project, copy the `src/` directory and wire up a canvas element. See the [sbt-website](https://github.com/spectralbranding/sbt-website) repository for the full integration.
+To use in your own project, copy the `src/` directory and wire up a canvas element. See the [sbt-website](https://github.com/viberesearch/sbt-website) repository for the full integration.
 
 ## The Brand Code Concept
 
@@ -88,7 +88,7 @@ A logo is a promise frozen in time. A Brand Code is a promise you can run.
 - [spectralbranding.com](https://spectralbranding.com) — The brand function running live
 - [sbt-framework](https://github.com/spectralbranding/sbt-framework) — Framework, templates, taxonomy
 - [sbt-papers](https://github.com/spectralbranding/sbt-papers) — Academic papers and case studies
-- [Article 07: We Deleted Our Logo and Replaced It with a Function](https://spectralbranding.substack.com) — The full argument
+- [Article 07: We Deleted Our Logo and Replaced It with a Function](https://substack.com/@spectralbranding) — The full argument
 
 ## License
 
