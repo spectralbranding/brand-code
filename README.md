@@ -93,3 +93,7 @@ A logo is a promise frozen in time. A Brand Code is a promise you can run.
 ## License
 
 MIT — read it, run it, fork it.
+
+## Trademarks
+
+"Spectral Brand Theory" and "Brand Code" are trademarks of Dmitry Zharnikov. The MIT license applies to the source code only and does not grant permission to use the project trademarks. You may fork and modify the code freely, but derivative works should not use these names in ways that imply endorsement or official affiliation.

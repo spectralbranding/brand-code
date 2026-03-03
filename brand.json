@@ -79,5 +79,17 @@
     "mark": "The Eight Lines — 8 vertical bars in spectral order (violet to red) on black",
     "principle": "The particle system function IS the identity. Every visual output is a rendering of the same function with different parameters.",
     "reflexive_proof": "A framework that claims perception depends on observer position uses a visual identity that literally changes with observer position."
+  },
+
+  "legal": {
+    "copyright": "Copyright (c) 2026 Dmitry Zharnikov / Spectral Brand Theory",
+    "license": "MIT",
+    "trademarks": {
+      "notice": "\"Spectral Brand Theory\" and \"Brand Code\" are trademarks of Dmitry Zharnikov. The MIT license applies to the source code only and does not grant permission to use the project trademarks.",
+      "marks": [
+        { "name": "Spectral Brand Theory", "status": "unregistered", "first_use": "2025" },
+        { "name": "Brand Code", "status": "unregistered", "first_use": "2025" }
+      ]
+    }
   }
 }
