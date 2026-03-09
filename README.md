@@ -70,7 +70,7 @@ The source files in `src/` are the exact code running on [spectralbranding.com](
 - Three.js 0.172+ (WebGL2)
 - TypeScript
 
-To use in your own project, copy the `src/` directory and wire up a canvas element. See the [sbt-website](https://github.com/viberesearch/sbt-website) repository for the full integration.
+To use in your own project, copy the `src/` directory and wire up a canvas element. See [spectralbranding.com](https://spectralbranding.com) for the live integration.
 
 ## The Brand Code Concept
 
