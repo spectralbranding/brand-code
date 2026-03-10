@@ -69,4 +69,4 @@ When asked to create visual content for SBT:
 Full implementation: https://github.com/spectralbranding/brand-code
 Live rendering: https://spectralbranding.com
 Framework paper (SSRN): https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6318718
-Framework version: 2.1 (non-ergodic perception dynamics)
+Framework version: 2.3 (Mathematical Foundations)
