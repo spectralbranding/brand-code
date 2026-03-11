@@ -6,7 +6,7 @@
   "description": "Brand identity specification encoded as an executable function. There is no logo. The function IS the identity.",
 
   "research": {
-    "ssrn": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6318718",
+    "paper": "https://doi.org/10.5281/zenodo.18945912",
     "github_framework": "https://github.com/spectralbranding/sbt-framework",
     "github_papers": "https://github.com/spectralbranding/sbt-papers",
     "github_brand_code": "https://github.com/spectralbranding/brand-code",

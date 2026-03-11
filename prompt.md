@@ -68,5 +68,5 @@ When asked to create visual content for SBT:
 
 Full implementation: https://github.com/spectralbranding/brand-code
 Live rendering: https://spectralbranding.com
-Framework paper (SSRN): https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6318718
+Framework paper: https://doi.org/10.5281/zenodo.18945912
 Framework version: 2.3 (Mathematical Foundations)
