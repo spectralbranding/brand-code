@@ -10,7 +10,10 @@
     "github_framework": "https://github.com/spectralbranding/sbt-framework",
     "github_papers": "https://github.com/spectralbranding/sbt-papers",
     "github_brand_code": "https://github.com/spectralbranding/brand-code",
-    "substack": "https://substack.com/@spectralbranding"
+    "github_paper_spec": "https://github.com/spectralbranding/paper-spec",
+    "github_activity_spec": "https://github.com/spectralbranding/activity-spec",
+    "github_canon_repo": "https://github.com/spectralbranding/canon-repo",
+    "substack": "https://spectralbranding.substack.com"
   },
 
   "function": {

@@ -88,7 +88,10 @@ A logo is a promise frozen in time. A Brand Code is a promise you can run.
 - [spectralbranding.com](https://spectralbranding.com) — The brand function running live
 - [sbt-framework](https://github.com/spectralbranding/sbt-framework) — Framework, templates, taxonomy
 - [sbt-papers](https://github.com/spectralbranding/sbt-papers) — Academic papers and case studies
-- [Article 07: We Deleted Our Logo and Replaced It with a Function](https://substack.com/@spectralbranding) — The full argument
+- [paper-spec](https://github.com/spectralbranding/paper-spec) — Machine-readable specification format for scientific papers
+- [activity-spec](https://github.com/spectralbranding/activity-spec) — Activity Specification Protocol
+- [canon-repo](https://github.com/spectralbranding/canon-repo) — Canon as Repository (transmedia IP demo)
+- [Article 07: We Deleted Our Logo and Replaced It with a Function](https://spectralbranding.substack.com/p/we-deleted-our-logo-and-replaced) — The full argument
 
 ## License
 
