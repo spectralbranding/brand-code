@@ -1,3 +1,7 @@
+[![MIT License](https://img.shields.io/badge/Code-MIT-blue.svg)](LICENSE)
+[![CC-BY 4.0](https://img.shields.io/badge/Data-CC--BY_4.0-lightgrey.svg)](LICENSE-data)
+![Last Updated](https://img.shields.io/badge/updated-2026--05--29-success)
+
 # Brand Code
 
 **Executable brand identity specification for [Spectral Brand Theory](https://spectralbranding.com).**
@@ -93,10 +97,87 @@ A logo is a promise frozen in time. A Brand Code is a promise you can run.
 - [canon-repo](https://github.com/spectralbranding/canon-repo) — Canon as Repository (transmedia IP demo)
 - [Article 07: We Deleted Our Logo and Replaced It with a Function](https://spectralbranding.substack.com/p/we-deleted-our-logo-and-replaced) — The full argument
 
-## License
+---
 
-MIT — read it, run it, fork it.
+## 1 | Getting Started
 
-## Trademarks
+This repository is a brand specification — a JSON spec (`brand.json`), a human-readable description (`BRAND.md`), an LLM prompt (`prompt.md`), and a TypeScript reference renderer in `src/`. No build step is required to read the spec; the renderer requires a Three.js host application.
 
-"Spectral Brand Theory" and "Brand Code" are trademarks of Dmitry Zharnikov. The MIT license applies to the source code only and does not grant permission to use the project trademarks. You may fork and modify the code freely, but derivative works should not use these names in ways that imply endorsement or official affiliation.
+**Prerequisites for running the renderer**:
+
+- Node.js 20+ / TypeScript 5+
+- Three.js 0.172+ (WebGL2 capable host)
+
+**Project anchor**: `.here` (root marker) + `brand.json` (machine-readable spec entry point).
+
+## 2 | Project Layout
+
+```
+brand-code/
+  brand.json            # Brand spectral profile — identity as structured data
+  BRAND.md              # Human-readable brand description
+  prompt.md             # LLM prompt for rendering the brand
+  src/
+    SpectralField.ts    # Core particle system renderer (Three.js)
+    constants.ts        # Spectral palette, dimensions, camera states
+    scroll-driver.ts    # Scroll-driven camera and decomposition
+  output/
+    figures/            # Rendered spectral field captures
+    tables/             # Spec-derived tables (palette, dimensions)
+    logs/               # Verification + render-run logs
+  CITATION.cff          # Machine-readable citation
+  LICENSE               # MIT (code)
+  LICENSE-data          # CC BY 4.0 (spec data, figures, tables)
+  reproduce.sh          # Spec verification orchestrator
+  .here                 # Root anchor for relative-path resolution
+```
+
+## 3 | Quick Start
+
+Verify the spec and emit a compact summary of `brand.json` to `output/logs/`:
+
+```bash
+./reproduce.sh
+```
+
+The script validates that `brand.json` is well-formed JSON, lists the eight spectral dimensions, and records the run to `output/logs/master_run.log`. To use the renderer in a host application, copy `src/` into your project and wire `SpectralField` to a canvas; see [spectralbranding.com](https://spectralbranding.com) for the live integration.
+
+## 4 | Dependencies
+
+| Component | Version | Purpose |
+|---|---|---|
+| Node.js | 20+ | TypeScript runtime for renderer |
+| TypeScript | 5+ | `src/` is typed TS |
+| Three.js | 0.172+ | WebGL2 particle system in `SpectralField.ts` |
+| jq (optional) | any | Spec validation in `reproduce.sh` |
+| bash | 4+ | `reproduce.sh` orchestrator |
+
+The spec files (`brand.json`, `BRAND.md`, `prompt.md`) require no runtime dependencies.
+
+## 5 | Script Map
+
+| File | Produces | Notes |
+|---|---|---|
+| `reproduce.sh` | `output/logs/master_run.log` | Validates spec; logs dimensions + palette |
+| `src/SpectralField.ts` | particle-system rendering | host-app integration |
+| `src/scroll-driver.ts` | camera-state transitions | scroll-driven decomposition |
+| `src/constants.ts` | palette + dimension constants | imported by `SpectralField` and `scroll-driver` |
+
+## 6 | Citation
+
+If you reference this brand specification or fork the renderer, please cite:
+
+> Zharnikov, D. (2026). *brand-code — Brand Specification Format*. GitHub repository. https://github.com/spectralbranding/brand-code
+
+A machine-readable `CITATION.cff` is provided at the repository root; GitHub renders a "Cite this repository" button automatically.
+
+## 7 | Licence
+
+- **Code** (`src/`, `reproduce.sh`, and other scripts): MIT — see [`LICENSE`](LICENSE).
+- **Spec data + rendered artifacts** (`brand.json`, `BRAND.md`, `prompt.md`, `output/`): CC BY 4.0 — see [`LICENSE-data`](LICENSE-data).
+
+**Trademarks**: "Spectral Brand Theory" and "Brand Code" are trademarks of Dmitry Zharnikov. The MIT and CC BY 4.0 licences apply to source code and spec content respectively; neither grants permission to use the project trademarks. You may fork and modify the code freely, but derivative works should not use these names in ways that imply endorsement or official affiliation.
+
+---
+
+*Last updated: 2026-05-29*

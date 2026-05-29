@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "brand-code — Brand Specification Format"
+version: "1.0.0"
+authors:
+  - family-names: "Zharnikov"
+    given-names: "Dmitry"
+    orcid: "https://orcid.org/0009-0000-6893-9231"
+date-released: "2026-05-29"
+license: "MIT"
+repository-code: "https://github.com/spectralbranding/brand-code"
+url: "https://github.com/spectralbranding/brand-code"
+keywords:
+  - brand-specification
+  - spectral-brand-theory
+  - executable-identity
+  - brand-code
