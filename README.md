@@ -58,6 +58,10 @@ Each particle in the system carries a **spectral profile** — eight intensity v
 | Cultural | Orange (#F97316) | |
 | Social | Red (#EF4444) | Longest |
 
+Wavelength order is the palette's order only. The SBT dimension order, used for every
+brand profile vector, is Semiotic, Narrative, Ideological, Experiential, Social, Economic,
+Cultural, Temporal.
+
 The apparent color of each particle is the **additive blend** of these eight spectral colors weighted by their intensities — exactly how optical spectroscopy works. A particle with strong semiotic (violet) and economic (green) dimensions but zero cultural (orange) will appear as a blue-green composite with a dark gap where orange should be.
 
 **Structural absence** is visible: dimensions with zero intensity produce dark gaps in the spectrograph view — the visual equivalent of SBT's "dark signals" concept.

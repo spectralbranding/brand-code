@@ -27,6 +27,10 @@ Eight spectral colors ordered by wavelength (violet to red), plus black and whit
 - Background: #000000 (black)
 - Text: #FFFFFF (white)
 
+Wavelength order is the palette's order only. The SBT dimension order, used for every
+brand profile vector, is Semiotic, Narrative, Ideological, Experiential, Social, Economic,
+Cultural, Temporal.
+
 No other colors. No gradients that break spectral ordering.
 
 ### The Particle System
