@@ -27,6 +27,10 @@ Eight colors, ordered by physical wavelength. Plus black and white. Nothing else
 | Cultural | Orange | #F97316 |
 | Social | Red | #EF4444 |
 
+Wavelength order is the palette's order only. The SBT dimension order, used for every
+brand profile vector, is Semiotic, Narrative, Ideological, Experiential, Social, Economic,
+Cultural, Temporal.
+
 The constraint is the identity. No gradients that violate spectral ordering. No decorative elements that don't map to a theory concept. No photography or illustration. Every element is a rendering of the brand function.
 
 ## The Polychromatic Model
