@@ -16,6 +16,7 @@ cd "$REPO_ROOT"
 
 mkdir -p output/figures output/tables output/logs
 LOG_FILE="output/logs/master_run.log"
+: > "$LOG_FILE"  # one log per pipeline execution (PUBLIC_MIRROR_STANDARD §5)
 
 echo "==================================================" | tee -a "$LOG_FILE"
 echo "Pipeline run: $(date -u +%Y-%m-%dT%H:%M:%SZ)" | tee -a "$LOG_FILE"
