@@ -20,7 +20,7 @@ LOG_FILE="output/logs/master_run.log"
 
 echo "==================================================" | tee -a "$LOG_FILE"
 echo "Pipeline run: $(date -u +%Y-%m-%dT%H:%M:%SZ)" | tee -a "$LOG_FILE"
-echo "Repo: $REPO_ROOT" | tee -a "$LOG_FILE"
+echo "Repo: $(basename "$REPO_ROOT")" | tee -a "$LOG_FILE"  # no local path in the log
 echo "Git SHA: $(git rev-parse HEAD 2>/dev/null || echo 'not-a-repo')" | tee -a "$LOG_FILE"
 echo "==================================================" | tee -a "$LOG_FILE"
 
